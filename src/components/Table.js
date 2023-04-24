@@ -18,6 +18,31 @@ function Table ({arrayofAllTranscations}){
                     <td>{transaction.amount}</td>
         </tr>
     })
+    return (
+        <>
+        <div>
+            <div className="container-fluid">
+                    <form onSubmit={handleSubmit} className="d-flex" role="search">
+                        <input onChange={handleChange} className="form-control me-2" type="search" placeholder="Enter description to search... (use lowcase)" aria-label="Search"/>
+                    </form>
+                </div>
+            </div>
+                <table className= "table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    {oneTransaction}
+                </tbody>
+            </table>
+        </>
+    )
 }
 
 export default Table
