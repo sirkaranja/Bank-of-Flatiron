@@ -1,23 +1,30 @@
-import React, {useState} from "react";
-function Table ({arrayofAllTranscations}){
-    const [dataOfArray, setDataOfArray] = useState("")
+import React, { useState} from "react";
 
-    
+function Table ({arayOfAllTransactions}) {
+    const [dataOfArray, setDataOfArray] = useState ("")
 
+    function handleSubmit (e) {
+        e.preventDefault ()
+    }
+    function handleChange (e) {
+        setDataOfArray (e.target.value)
+    }
 
-    //use filter and map methods to iterate over the data
+    // use filter and map methods to iterate through data from the db.json then use this data to in the table to display user information
 
-    const oneTranscations = arrayofAllTranscations.filter((item)=>{
-        return dataOfArray.toLowerCase() === "" ? item :item.description.toLowerCase().includes(dataOfArray)
+    const oneTransaction = arayOfAllTransactions.filter ((item)=> {
+        return dataOfArray.toLowerCase () === "" ? item : item.description.toLowerCase ().includes (dataOfArray)
     })
-    .map((transaction)=>{
-        return <tr key={transaction.id}>
-            <td>{transaction.date}</td>
+    .map ((transaction)=> {
+        return <tr key= {transaction.id}>
+                    <td>{transaction.date}</td>
                     <td>{transaction.description}</td>
                     <td>{transaction.category}</td>
                     <td>{transaction.amount}</td>
-        </tr>
-    })
+               </tr>
+
+        })
+
     return (
         <>
         <div>
@@ -45,4 +52,4 @@ function Table ({arrayofAllTranscations}){
     )
 }
 
-export default Table
+export default Table 
