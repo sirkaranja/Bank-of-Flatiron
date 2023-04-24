@@ -1,6 +1,6 @@
-
+import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import React, { useSate, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Table from './components/Table';
 import Form from './components/Form';
@@ -8,10 +8,8 @@ import Form from './components/Form';
 function App() {
   const [transactions, setTransactions] = useState([])
 
-  //fetch data from the db.json using useEffect
+  // Fetch data from the the db.json using useEffect
 
-
- 
   useEffect (()=> {
     fetch ("http://localhost:3000/transactions")
       .then ((r)=> r.json ())
