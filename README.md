@@ -1,15 +1,16 @@
 # Bank Of Flatiron
 
-This is the frontend application for Bank of Flatiron, a simple banking application built with React. This application provides a user interface for managing accounts, making deposits and withdrawals, and transferring funds between accounts.
+This is the frontend application for Bank of Flatiron, a simple banking application built with React. This application provides a user interface for displaying the transaction doen by user and also they can be able to add new transaction that won't need page relaoding for the effect to be seen in the browser since its done automatically. 
 
 # Getting Started
 To get started with this project, follow these steps:
 
-Clone the repository using git clone https://github.com/sirkaranja/Bank-of-Flatiron.git.
-Navigate to the project directory using cd Bank-of-Flatiron.
-Navigate to the src directory using cd src.
-Install the required dependencies using npm install.
-Start the development server using npm start.
+1. Clone the repository using git clone https://github.com/sirkaranja/Bank-of-Flatiron.git.
+2. Navigate to the project directory using cd Bank-of-Flatiron.
+3. Navigate to the src directory using cd src.
+4. Install the required dependencies using npm install.
+5. Start the development server using npm start.
+6. ensure you have json server installed and run json-server --watch db.json
 
 # Project Structure
 This project is organized into the following directories:
