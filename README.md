@@ -3,7 +3,7 @@
 This is the frontend application for Bank of Flatiron, a simple banking application built with React. This application provides a user interface for displaying the transaction doen by user and also they can be able to add new transaction that won't need page relaoding for the effect to be seen in the browser since its done automatically. 
 
 # Live Demo 
-https://sirkaranja.github.io/Bank-of-Flatiron/
+https://bank-of-flatiron-lime-omega.vercel.app/
 
 # Getting Started
 To get started with this project, follow these steps:
