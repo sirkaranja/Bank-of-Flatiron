@@ -125,6 +125,125 @@
       "category": "Photoshoot",
       "amount": "20000",
       "id": 18
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 19
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 20
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 21
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 22
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 23
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 24
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 25
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 26
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 27
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 28
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 29
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 30
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 31
+    },
+    {
+      "date": "2023-04-28",
+      "description": "school fees",
+      "category": "fees",
+      "amount": "34576",
+      "id": 32
+    },
+    {
+      "date": "2023-04-26",
+      "description": "greg",
+      "category": "greg",
+      "amount": "565678",
+      "id": 33
+    },
+    {
+      "date": "2023-04-26",
+      "description": "greg",
+      "category": "greg",
+      "amount": "565678",
+      "id": 34
+    },
+    {
+      "date": "2023-04-26",
+      "description": "greg",
+      "category": "greg",
+      "amount": "565678",
+      "id": 35
     }
   ]
 }
